@@ -1,0 +1,46 @@
+/* Theme variables */
+:root{
+--nyahim-green: #2f8f4f; /* primary */
+--nyahim-dark-green: #1f5f36; /* darker */
+--nyahim-brown: #6b4f2b; /* accent */
+--nyahim-olive: #9bbf7a; /* light */
+--nyahim-bg: #f7faf2; /* page background */
+--nyahim-accent: #f0c987; /* warm accent */
+}
+
+
+body{
+background: var(--nyahim-bg);
+color: #163119;
+-webkit-font-smoothing:antialiased;
+}
+
+
+.header-hero{
+background: linear-gradient(180deg, rgba(47,143,79,0.08), transparent 60%), url('/assets/hero-farm.jpg') center/cover no-repeat;
+}
+
+
+.btn-nyahim{
+background: var(--nyahim-green);
+color: white;
+border-radius: .375rem;
+border: none;
+}
+.btn-nyahim:hover{ background: var(--nyahim-dark-green); }
+
+
+.card-veg{ border-left: 6px solid var(--nyahim-olive); }
+.card-poultry{ border-left: 6px solid var(--nyahim-accent); }
+.card-fish{ border-left: 6px solid var(--nyahim-brown); }
+
+
+footer{
+background: var(--nyahim-dark-green);
+color: #fff;
+}
+
+
+/* small utilities */
+.section-pad{ padding:4rem 0; }
+
